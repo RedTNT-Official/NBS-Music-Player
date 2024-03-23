@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§aNBS Music Player",
+    "description": "§ePlay NBS Songs on your world\n§cBy: RedTNT\n§cDiscord: RedTNT#0333 / .redtnt",
+    "uuid": "9acea17a-e458-45ce-bc5c-e89cbf09551f",
+    "min_engine_version": [ 1, 20, 0 ],
+    "version": [ 1, 0, 0 ]
+  },
+
+  "metadata": {
+    "authors": [ "RedTNT#0333" ]
+  },
+
+  "modules": [
+    {
+      "type": "script",
+      "uuid": "1a4265f3-7ab0-4906-83ee-446b9bae2600",
+      "entry": "scripts/main.js",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.10.0-beta"
+    }
+  ]
+}
